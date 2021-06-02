@@ -45,8 +45,8 @@ LocationName.prototype.cust1=function () {
   }
 };
 LocationName.prototype.cookies1=function () {
-  for (let index = 0; index <14; index++) {
-    this.cookies.push(random(this.customers,this.avgCookie));
+  for (let index = 0; index <hours.length; index++) {
+    this.cookies.push(Math.floor(this.customers[index]* this.avgCookie));
   }
 };
 
