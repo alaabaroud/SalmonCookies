@@ -1,5 +1,6 @@
 'use strict';
 
+
 let hours = ['6 am', '7 am', '8am', '9am', '10am', '11am', '12 pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
 
@@ -99,7 +100,6 @@ let tokyo = {
     let totall=document.createElement('li');
     ulElement.appendChild(totall);
     totall.textContent= `total : ${this.total} cookies.`;
-
   }
 
 };
@@ -148,10 +148,10 @@ let dubai = {
     let totall=document.createElement('li');
     ulElement.appendChild(totall);
     totall.textContent= `total : ${this.total} cookies.`;
-
   }
 
 };
+
 
 dubai.custPerHour1();
 dubai.CookiesPerHour();
@@ -317,4 +317,3 @@ lima.render();
 // console.log(seattle);
 
 // //let parent=document.getElementById('parent');
-
