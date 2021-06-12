@@ -6,29 +6,29 @@ let hours = ['6 am', '7 am', '8am', '9am', '10am', '11am', '12 pm', '1pm', '2pm'
 
 
 
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+// function randomNumber(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
 
-let seattle = {
-  name: 'seattle',
-  min: 23,
-  max: 65,
-  avg: 6.3,
-  total: 0,
-  custPerHour: [],
-  cookies: [],
-  total :0,
+// let seattle = {
+//   name: 'seattle',
+//   min: 23,
+//   max: 65,
+//   avg: 6.3,
+//   total: 0,
+//   custPerHour: [],
+//   cookies: [],
+//   total :0,
 
-  custPerHour1: function () {
-    for (let i = 0; i < hours.length; i++) {
-      this.custPerHour.push(randomNumber(this.min, this.max));
-    }
-  },
-  CookiesPerHour:function(){
-    for(let i=0 ; i<hours.length ;i++){
-      this.cookies.push(Math.floor(this.custPerHour[i]*this.avg));
-      this.total+=this.cookies[i];
+//   custPerHour1: function () {
+//     for (let i = 0; i < hours.length; i++) {
+//       this.custPerHour.push(randomNumber(this.min, this.max));
+//     }
+//   },
+//   CookiesPerHour:function(){
+//     for(let i=0 ; i<hours.length ;i++){
+//       this.cookies.push(Math.floor(this.custPerHour[i]*this.avg));
+//       this.total+=this.cookies[i];
 
 
 
